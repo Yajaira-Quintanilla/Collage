@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Collagee | Crea momentos</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300;400;500;600;700&family=Parisienne&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="logo">
+            <span class="logo-flower">✿</span>
+            <span>Collagee</span>
+        </div>
+
+        <nav class="navbar" id="navbar">
+            <a href="#inicio">Inicio</a>
+            <a href="#plantillas">Plantillas</a>
+            <a href="#crear">Crear Collage</a>
+            <a href="#precios">Precios</a>
+            <a href="#nosotros">Sobre Nosotros</a>
+        </nav>
+
+        <div class="header-icons">
+            <button aria-label="Buscar">⌕</button>
+            <button aria-label="Favoritos">♡</button>
+
+            <button class="menu-btn" id="menuBtn">
+                ☰
+            </button>
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section class="hero" id="inicio">
+
+            <div class="hero-decoration decoration-1"></div>
+            <div class="hero-decoration decoration-2"></div>
+
+            <div class="hero-content reveal">
+
+                <span class="small-title">
+                    TU HISTORIA, EN UN SOLO COLLAGE
+                </span>
+
+                <h1>
+                    Crea collages<br>
+                    que <span>inspiran</span> ♡
+                </h1>
+
+                <p>
+                    Convierte tus momentos, ideas y recuerdos en
+                    collages únicos y creativos. Elige una plantilla,
+                    personalízala a tu estilo y dale vida a tus ideas.
+                </p>
+
+                <a href="#crear" class="primary-btn">
+                    Crear mi collage
+                    <span>→</span>
+                </a>
+
+            </div>
+
+
+            <!-- Collage visual -->
+
+            <div class="hero-collage reveal">
+
+                <div class="paper paper-1">
+                    <div class="fake-photo photo-sunset"></div>
+                    <span>good moments</span>
+                </div>
+
+                <div class="paper paper-2">
+                    <div class="fake-photo photo-flower"></div>
+                </div>
+
+                <div class="paper paper-3">
+                    <div class="fake-photo photo-cat"></div>
+                </div>
+
+                <div class="paper paper-4">
+                    ♡
+                </div>
+
+                <div class="flower-decoration">✿</div>
+                <div class="heart-decoration">♥</div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= BENEFICIOS ================= -->
+
+        <section class="benefits">
+
+            <div class="benefit">
+                <div class="benefit-icon">☆</div>
+                <h3>Plantillas exclusivas</h3>
+                <p>Diseños creados para cada estilo.</p>
+            </div>
+
+            <div class="benefit">
+                <div class="benefit-icon">✎</div>
+                <h3>Fácil de usar</h3>
+                <p>Crea sin necesidad de experiencia.</p>
+            </div>
+
+            <div class="benefit">
+                <div class="benefit-icon">♡</div>
+                <h3>Personaliza</h3>
+                <p>Haz que cada collage sea tuyo.</p>
+            </div>
+
+            <div class="benefit">
+                <div class="benefit-icon">✧</div>
+                <h3>Descarga y comparte</h3>
+                <p>Guarda tus creaciones en segundos.</p>
+            </div>
+
+        </section>
+
+
+        <!-- ================= PLANTILLAS ================= -->
+
+        <section class="templates-section" id="plantillas">
+
+            <div class="section-title reveal">
+
+                <span>ELIGE TU ESTILO</span>
+
+                <h2>
+                    Plantillas de <em>Collages</em>
+                </h2>
+
+                <p>
+                    Descubre diseños para cada ocasión,
+                    momento y personalidad.
+                </p>
+
+            </div>
+
+
+            <!-- Filtros -->
+
+            <div class="filters">
+
+                <button class="filter active" data-filter="all">
+                    Todas
+                </button>
+
+                <button class="filter" data-filter="aesthetic">
+                    Aesthetic
+                </button>
+
+                <button class="filter" data-filter="minimalista">
+                    Minimalista
+                </button>
+
+                <button class="filter" data-filter="viajes">
+                    Viajes
+                </button>
+
+                <button class="filter" data-filter="amor">
+                    Amor
+                </button>
+
+            </div>
+
+
+            <!-- Cards -->
+
+            <div class="templates-grid">
+
+                <article class="template-card" data-category="aesthetic">
+
+                    <div class="template-image template-one">
+                        <span>✿</span>
+                        <strong>Dreamy</strong>
+                    </div>
+
+                    <div class="template-info">
+                        <h3>Dreamy</h3>
+                        <button class="favorite">♡</button>
+                    </div>
+
+                </article>
+
+
+                <article class="template-card" data-category="amor">
+
+                    <div class="template-image template-two">
+                        <span>♡</span>
+                        <strong>Pastel Love</strong>
+                    </div>
+
+                    <div class="template-info">
+                        <h3>Pastel Love</h3>
+                        <button class="favorite">♡</button>
+                    </div>
+
+                </article>
+
+
+                <article class="template-card" data-category="viajes">
+
+                    <div class="template-image template-three">
+                        <span>✈</span>
+                        <strong>Travel Vibes</strong>
+                    </div>
+
+                    <div class="template-info">
+                        <h3>Travel Vibes</h3>
+                        <button class="favorite">♡</button>
+                    </div>
+
+                </article>
+
+
+                <article class="template-card" data-category="minimalista">
+
+                    <div class="template-image template-four">
+                        <span>✧</span>
+                        <strong>Minimal</strong>
+                    </div>
+
+                    <div class="template-info">
+                        <h3>Minimal</h3>
+                        <button class="favorite">♡</button>
+                    </div>
+
+                </article>
+
+
+                <article class="template-card" data-category="aesthetic">
+
+                    <div class="template-image template-five">
+                        <span>✿</span>
+                        <strong>Floral</strong>
+                    </div>
+
+                    <div class="template-info">
+                        <h3>Floral</h3>
+                        <button class="favorite">♡</button>
+                    </div>
+
+                </article>
+
+
+                <article class="template-card" data-category="aesthetic">
+
+                    <div class="template-image template-six">
+                        <span>♡</span>
+                        <strong>Moodboard</strong>
+                    </div>
+
+                    <div class="template-info">
+                        <h3>Moodboard</h3>
+                        <button class="favorite">♡</button>
+                    </div>
+
+                </article>
+
+            </div>
+
+            <button class="secondary-btn">
+                Ver todas las plantillas
+                →
+            </button>
+
+        </section>
+
+
+        <!-- ================= CREAR ================= -->
+
+        <section class="create-section" id="crear">
+
+            <div class="create-content reveal">
+
+                <span>IDEAS SIN LÍMITES</span>
+
+                <h2>
+                    Tu creatividad,
+                    <em>tu estilo</em>
+                </h2>
+
+                <p>
+                    Elige una plantilla, agrega tus fotografías,
+                    cambia los colores, añade stickers y crea
+                    algo completamente único.
+                </p>
+
+                <button class="primary-btn" id="startCreating">
+                    Comenzar ahora →
+                </button>
+
+            </div>
+
+
+            <div class="create-preview">
+
+                <div class="preview-window">
+
+                    <div class="preview-top">
+                        <span>✿ Collagee</span>
+                        <button>Descargar</button>
+                    </div>
+
+                    <div class="preview-body">
+
+                        <div class="preview-sidebar">
+                            <span>▦</span>
+                            <span>▧</span>
+                            <span>T</span>
+                            <span>♡</span>
+                            <span>✿</span>
+                        </div>
+
+                        <div class="preview-canvas">
+
+                            <div class="mini-photo mini-one"></div>
+                            <div class="mini-photo mini-two"></div>
+                            <div class="mini-photo mini-three"></div>
+
+                            <span class="mini-text">
+                                Good vibes only ♡
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= COMO FUNCIONA ================= -->
+
+        <section class="how-section">
+
+            <div class="section-title">
+
+                <span>ASÍ DE FÁCIL</span>
+
+                <h2>
+                    ¿Cómo <em>funciona?</em>
+                </h2>
+
+                <p>
+                    Crear tu collage favorito es más fácil de lo que imaginas.
+                </p>
+
+            </div>
+
+
+            <div class="steps">
+
+                <div class="step">
+                    <div class="step-number">01</div>
+                    <div class="step-icon">▧</div>
+                    <h3>Elige una plantilla</h3>
+                    <p>
+                        Explora nuestra galería y selecciona
+                        el diseño que más te guste.
+                    </p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">02</div>
+                    <div class="step-icon">✎</div>
+                    <h3>Personaliza</h3>
+                    <p>
+                        Añade tus fotos, textos, stickers
+                        y colores favoritos.
+                    </p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">03</div>
+                    <div class="step-icon">↓</div>
+                    <h3>Descarga</h3>
+                    <p>
+                        Guarda tu collage en alta calidad
+                        y prepáralo para compartir.
+                    </p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">04</div>
+                    <div class="step-icon">♡</div>
+                    <h3>Comparte</h3>
+                    <p>
+                        Llévalo a tus redes o úsalo
+                        como fondo y recuerdo.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= INSPIRACIÓN ================= -->
+
+        <section class="inspiration">
+
+            <div class="inspiration-image">
+
+                <div class="inspiration-collage">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+
+            </div>
+
+            <div class="inspiration-content">
+
+                <span>INSPÍRATE</span>
+
+                <h2>
+                    Ideas sin límites,
+                    <em>creatividad infinita</em>
+                </h2>
+
+                <p>
+                    Desde momentos especiales hasta ideas
+                    creativas, nuestros collages te ayudarán
+                    a expresar lo que sientes.
+                </p>
+
+                <a href="#plantillas" class="secondary-btn">
+                    Explorar ideas →
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CTA ================= -->
+
+        <section class="final-cta">
+
+            <div class="sparkle">✦</div>
+
+            <h2>
+                Tu historia merece
+                <em>un collage</em>
+            </h2>
+
+            <p>
+                Dale vida a tus recuerdos y crea algo que
+                sea completamente tuyo.
+            </p>
+
+            <a href="#crear" class="primary-btn">
+                Crear mi collage →
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer id="nosotros">
+
+        <div class="footer-logo">
+            <span>✿</span> Collagee
+        </div>
+
+        <p>
+            Crea. Inspira. Comparte.
+        </p>
+
+        <div class="socials">
+            <a href="#">Instagram</a>
+            <a href="#">TikTok</a>
+            <a href="#">Pinterest</a>
+        </div>
+
+        <small>
+            © 2026 Collagee. Todos los derechos reservados.
+        </small>
+
+    </footer>
+
+
+    <!-- Modal -->
+
+    <div class="modal" id="modal">
+
+        <div class="modal-content">
+
+            <button class="close-modal" id="closeModal">
+                ×
+            </button>
+
+            <span class="modal-flower">✿</span>
+
+            <h2>¡Comencemos a crear!</h2>
+
+            <p>
+                Elige una plantilla y empieza a convertir
+                tus ideas en un collage único.
+            </p>
+
+            <a href="#plantillas" class="primary-btn">
+                Ver plantillas →
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
